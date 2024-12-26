@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yazılım2CSharp", "Yazılım2CSharp\Yazılım2CSharp.csproj", "{2CF4E825-B1A8-45D5-9EF4-7163A3F28CA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - Yazılım2CSharp", "Yazılım2CSharp\1 - Yazılım2CSharp.csproj", "{2CF4E825-B1A8-45D5-9EF4-7163A3F28CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - Tür Dönüşümü", "2 - Tür Dönüşümü\2 - Tür Dönüşümü.csproj", "{32D79865-E65C-4EE9-8A3A-3FF45D368BF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2CF4E825-B1A8-45D5-9EF4-7163A3F28CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CF4E825-B1A8-45D5-9EF4-7163A3F28CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CF4E825-B1A8-45D5-9EF4-7163A3F28CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D79865-E65C-4EE9-8A3A-3FF45D368BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D79865-E65C-4EE9-8A3A-3FF45D368BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D79865-E65C-4EE9-8A3A-3FF45D368BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D79865-E65C-4EE9-8A3A-3FF45D368BF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
