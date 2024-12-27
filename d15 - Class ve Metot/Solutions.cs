@@ -22,5 +22,66 @@ namespace d15___Class_ve_Metot
         {
             return sayı * sayı;
         }
+
+        // Metoda girilen 3 adet notun, en büyügunu bulan uygulama. Döngü var !
+        public static int maxbul(List<int> notlar)
+        {
+            int maxdeger = 0;
+            foreach (int not in notlar) 
+            {          
+                if (not>maxdeger)
+                {
+                    maxdeger = not;
+                }
+            }
+
+            return maxdeger;
+        }
+
+        // Bir metot açın, metoda 1 tane vize, 1 tane final puanı gelsin.
+        // Vize'nin yüzde 40'ını , finalin yüzde 60'ını alıp ikisini toplayın.
+        // Bu bizim ortalama puanımız olacak bunu return yapın.
+        public static double nothesapla(double vize,double final)
+        {
+            double vizeninhesabı = vize * 40 / 100;
+            double finalinhesabı = final * 60 / 100;
+            return vizeninhesabı + finalinhesabı;
+        }
+
+        // Bir fonksiyon oluşturun, fonksiyona string bir kelime girilsin.
+        // Bu kelimenin içerisindeki sesli harflerin sayısını return etsin.
+        public static int sesliharfsay(string kelime)
+        {
+            string sesliler = "aeıiouAEIİOU";
+            int sayac = 0;
+
+            foreach (char karakter in kelime)
+            {
+                if (sesliler.Contains(karakter))
+                {
+                    sayac++;
+                }
+            }
+
+            return sayac;
+        }
+
+        // Bir fonksiyon açın, bir kelime ve bir sayı girilsin.
+        // Bu kelimenin her harfini girilen sayı kadar çogaltın.
+        // Yeni kelimeyi döndürün.
+        // emir , 2 => eemmiirr
+        public static string harfarttır(string kelime,int tekrar)
+        {
+            string sonuc = "";
+            foreach (char karakter in kelime)
+            {
+                for (int i = 0; i < tekrar; i++)
+                {
+                    sonuc += karakter;
+                }
+            }
+
+            return sonuc;
+        }
     }
 }
